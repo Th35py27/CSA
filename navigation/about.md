@@ -4,30 +4,119 @@ title: About
 permalink: /about/
 ---
 
----
-layout: page
-title: About
-permalink: /about/
----
+- My name is Nandan and I'm a senior that is interested in data science and computer engineering.
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        .content-container {
+            max-width: 650px;
+            margin: 0 auto;
+            padding: 15px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            margin-top: 0;
+            color: #333;
+            text-align: center;
+        }
+        .slideshow-container {
+            width: 100%; 
+            max-width: 500px; 
+            position: relative;
+            margin: 20px auto;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .slides {
+            display: flex;
+            transition: transform 1s ease;
+        }
+        .slide {
+            min-width: 100%;
+            box-sizing: border-box;
+            text-align: center; 
+        }
+        .slide img {
+            max-width: 100%;
+            max-height: 300px; 
+            object-fit: contain;
+            border-radius: 10px;
+            border: 2px solid #87CEEB;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .journey {
+            color: white; /* Change font color to white */
+            text-align: left; /* Align text to the left */
+            margin: 20px 0; /* Add some space around the text */
+        }
+    </style>
+</head>
+<body>
+
+<div class="content-container">
+    <div class="slideshow-container">
+        <div class="slides">
+            <div class="slide">
+                <img src="{{site.baseurl}}/images/picture.png" alt="Image 1">
+            </div>
+            <div class="slide">
+                <img src="{{site.baseurl}}/images/images.png" alt="Image 2">
+            </div>
+            <div class="slide">
+                <img src="{{site.baseurl}}/images/friends.png" alt="Image 3">
+            </div>
+            <div class="slide">
+                <img src="{{site.baseurl}}/images/california.png" alt="Image 4">
+            </div>
+            <div class="slide">
+                <img src="{{site.baseurl}}/images/ds.png" alt="Image 5">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="journey">
+    <h2>Journey</h2>
+</div>
+
+- Currently a senior at Del Norte High School that is interested in Data Science and Computer Engineering. I have come to an interest in coding after taking CSP at DNHS which gave me the fundamentals for web developing and backend creation, while learning database management and software engineering. 
+
+- Some things I do in my free time are playing chess ♞, watching YouTube ▶️, and going biking🚴. I'm open to learning new things, which is how my interest for coding increased. 
 
 
-<h1 style="color:blue;">About me</h1>
-<p>My name is Nandan and I'm a senior that is interested in data science and computer engineering.</p>
+<h2>Future for class</h2>
+
+- I hope to increase my knowledge in Java and frontend developing such as JS and improving my knowledge of computers. I enjoyed CSP a lot and I loved working with people that were smart and willing to work towards their dreams and make wonderful coding projects. My goal is to create something AI related since that is where I want to work in, as a future goal. 
 
 
+<script>
+    let slideIndex = 0;
+    let slides = document.querySelector('.slides');
+    let totalSlides = document.querySelectorAll('.slide').length;
 
+    function showSlides() {
+        slideIndex++;
+        if (slideIndex === totalSlides) {
+            slideIndex = 0;
+        }
+        slides.style.transform = `translateX(${-slideIndex * 100}%)`;
+        setTimeout(showSlides, 3000); 
+    }
 
-<h2 style="color:blue;">Some things I do in my free time are:</h2>
-<p>Watch youtube</p>
-<p>Go biking</p>
-<p>Watch TV</p>
+    showSlides();
+</script>
 
-
-<h2 style="color:blue;">Pls sub to my Youtube I need subs</h2>
-<a href ="https://www.youtube.com/channel/UCvpxPRkIg_U082tfxg2mTUg">"YouTube"</a>
-
-
-<h3 style="color:blue;">Other stuff</h3>
-- Plans, Lists, [Scrum Boards](https://clickup.com/blog/scrum-board/) help you to track key events, show progress and record time.  Effort is a big part of your class grade.  Show plans and time spent!
-- [Hacks(Todo)](https://levelup.gitconnected.com/six-ultimate-daily-hacks-for-every-programmer-60f5f10feae) enable you to stay in focus with key requirements of the class.  Each Hack will produce Tangibles.
-- Tangibles or [Tangible Artifacts](https://en.wikipedia.org/wiki/Artifact_(software_development)) are things you accumulate as a learner and coder.
+</body>
+</html>
