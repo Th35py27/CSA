@@ -9,27 +9,9 @@ permalink: /about/
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="/styles/style.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 20px;
-        }
-        .content-container {
-            max-width: 650px;
-            margin: 0 auto;
-            padding: 15px;
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            margin-top: 0;
-            color: #333;
-            text-align: center;
-        }
         .slideshow-container {
             width: 100%; 
             max-width: 500px; 
@@ -57,9 +39,9 @@ permalink: /about/
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         .journey {
-            color: white; /* Change font color to white */
-            text-align: left; /* Align text to the left */
-            margin: 20px 0; /* Add some space around the text */
+            color: white; 
+            text-align: left; 
+            margin: 20px 0; 
         }
     </style>
 </head>
