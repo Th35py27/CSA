@@ -7,8 +7,8 @@ courses: {'csa': {'week': 18}}
 comments: True
 ---
 
-<img src="{{site.baseurl}}/images/IMG_7708.png" alt="Image 3">
-<img src="{{site.baseurl}}/images/IMG_7709.png" alt="Image 3">
+<img src="{{site.baseurl}}/images/picture1.png" alt="Image 4">
+<img src="{{site.baseurl}}/images/picture2.png" alt="Image 5">
 
 # What I learnt
 
