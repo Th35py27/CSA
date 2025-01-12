@@ -10,6 +10,9 @@ comments: True
 <img src="{{site.baseurl}}/images/picture1.png" alt="Image 4">
 <img src="{{site.baseurl}}/images/picture2.png" alt="Image 5">
 
+
+<img src="https://th35py27.github.io/CSA/images/picture1.png" alt="Image 4">
+
 # What I learnt
 
 - Liked taking things apart and learnt engineering that way
