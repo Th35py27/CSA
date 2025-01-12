@@ -7,8 +7,6 @@ courses: {'csa': {'week': 18}}
 comments: True
 ---
 
-
-
 <img src="https://th35py27.github.io/CSA/images/picture1.png" alt="Image 4">
 <img src="https://th35py27.github.io/CSA/images/picture2.png" alt="Image 4">
 
