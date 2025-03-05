@@ -11,7 +11,7 @@ comments: True
 <img src="https://th35py27.github.io/CSA/images/picture2.png" alt="Image 4">
 
 
-# What I learnt
+# What I Have learnt
 
 - Liked taking things apart and learnt engineering that way
 - Lot of them worked with problem based learning (PBL) and realized their interests that way 

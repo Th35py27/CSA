@@ -29,5 +29,4 @@ Reasoning: The word art will not be able to be determined, since it is present a
 
 
 
-
 # Main Concepts
